@@ -57,7 +57,7 @@ def NLP():
             image = Image.open('negative_feedback.jpg')
             st.image(image=image, width=200)
 
-st.title('Welcome to our multi-media AI project')
+st.title('Welcome to our multi-task AI project')
 page = ''
 if not page:
     st.write('You can select [Vision] or [NLP] project from the sidebar')
